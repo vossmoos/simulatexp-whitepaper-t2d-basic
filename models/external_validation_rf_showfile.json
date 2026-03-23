@@ -1,0 +1,450 @@
+{
+  "model_type": "sklearn_random_forest",
+  "bundle_path": "models/rf_plasma_bundle.joblib",
+  "showfile_path": "real/showfile_t.txt",
+  "diagnostics": {
+    "n_model_features": 12,
+    "aligned_metabolites_min": 11,
+    "aligned_metabolites_mean": 11.9107,
+    "aligned_metabolites_max": 12
+  },
+  "n_samples": 56,
+  "accuracy": 0.8035714285714286,
+  "accuracy_percent": 80.3571,
+  "roc_auc_t2d_positive": 0.7263257575757576,
+  "label_classes": [
+    "Control",
+    "T2D"
+  ],
+  "classification_report": {
+    "Control": {
+      "precision": 0.5555555555555556,
+      "recall": 0.4166666666666667,
+      "f1-score": 0.47619047619047616,
+      "support": 12.0
+    },
+    "T2D": {
+      "precision": 0.851063829787234,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.8791208791208791,
+      "support": 44.0
+    },
+    "accuracy": 0.8035714285714286,
+    "macro avg": {
+      "precision": 0.7033096926713949,
+      "recall": 0.6628787878787878,
+      "f1-score": 0.6776556776556777,
+      "support": 56.0
+    },
+    "weighted avg": {
+      "precision": 0.7877406281661601,
+      "recall": 0.8035714285714286,
+      "f1-score": 0.792778649921507,
+      "support": 56.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      5,
+      7
+    ],
+    [
+      4,
+      40
+    ]
+  ],
+  "per_sample": [
+    {
+      "sample_id": "090309bsesa100_1",
+      "true_label": "T2D",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa106_1",
+      "true_label": "T2D",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa109_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa110_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa59_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa60_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa61_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa65_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa66_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa67_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa68_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa69_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa75_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa77_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa78_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa88_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa89_2",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 11,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa92_2",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 11,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa95_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa96_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa98_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa99_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa101_1",
+      "true_label": "T2D",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa104_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa108_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa112_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 11,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa58_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa62_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa63_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa64_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa70_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa72_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa73_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa79_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa80_2",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa82_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa83_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa84_1",
+      "true_label": "T2D",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa85_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa86_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa87_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa90_2",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 11,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa94_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa97_1",
+      "true_label": "T2D",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa102_1",
+      "true_label": "Control",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa103_1",
+      "true_label": "Control",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa74_1",
+      "true_label": "Control",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa76_1",
+      "true_label": "Control",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa91_1",
+      "true_label": "Control",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa93_2",
+      "true_label": "Control",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 11,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa105_1",
+      "true_label": "Control",
+      "predicted_label": "Control",
+      "n_aligned_metabolites": 12,
+      "correct": true
+    },
+    {
+      "sample_id": "090309bsesa107_1",
+      "true_label": "Control",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa111_1",
+      "true_label": "Control",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa57_1",
+      "true_label": "Control",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa71_1",
+      "true_label": "Control",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    },
+    {
+      "sample_id": "090309bsesa81_1",
+      "true_label": "Control",
+      "predicted_label": "T2D",
+      "n_aligned_metabolites": 12,
+      "correct": false
+    }
+  ]
+}

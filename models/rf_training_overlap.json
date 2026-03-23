@@ -1,0 +1,68 @@
+{
+  "n_features": 12,
+  "n_showfile_metabolites": 106,
+  "n_matched_keys": 12,
+  "matched": [
+    {
+      "synthetic_column": "2-Hydroxybutyric acid",
+      "showfile_metabolite_name": "2-hydroxybutanoic acid",
+      "showfile_refmet_name": "2-Hydroxybutyric acid"
+    },
+    {
+      "synthetic_column": "3-Hydroxybutyric acid",
+      "showfile_metabolite_name": "3-hydroxybutanoic acid",
+      "showfile_refmet_name": "3-Hydroxybutyric acid"
+    },
+    {
+      "synthetic_column": "Alanine",
+      "showfile_metabolite_name": "alanine",
+      "showfile_refmet_name": "Alanine"
+    },
+    {
+      "synthetic_column": "Glucose",
+      "showfile_metabolite_name": "glucose",
+      "showfile_refmet_name": "Glucose"
+    },
+    {
+      "synthetic_column": "Glutamine",
+      "showfile_metabolite_name": "glutamine",
+      "showfile_refmet_name": "Glutamine"
+    },
+    {
+      "synthetic_column": "Glycine",
+      "showfile_metabolite_name": "glycine",
+      "showfile_refmet_name": "Glycine"
+    },
+    {
+      "synthetic_column": "Isoleucine",
+      "showfile_metabolite_name": "isoleucine",
+      "showfile_refmet_name": "Isoleucine"
+    },
+    {
+      "synthetic_column": "Leucine",
+      "showfile_metabolite_name": "leucine",
+      "showfile_refmet_name": "Leucine"
+    },
+    {
+      "synthetic_column": "Palmitic acid",
+      "showfile_metabolite_name": "palmitic acid",
+      "showfile_refmet_name": "Palmitic acid"
+    },
+    {
+      "synthetic_column": "Phenylalanine",
+      "showfile_metabolite_name": "phenylalanine",
+      "showfile_refmet_name": "Phenylalanine"
+    },
+    {
+      "synthetic_column": "Tyrosine",
+      "showfile_metabolite_name": "tyrosine",
+      "showfile_refmet_name": "Tyrosine"
+    },
+    {
+      "synthetic_column": "Valine",
+      "showfile_metabolite_name": "valine",
+      "showfile_refmet_name": "Valine"
+    }
+  ],
+  "missing_in_showfile": []
+}
