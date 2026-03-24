@@ -8,7 +8,7 @@ The focus of this project is not to present a full medical product, but to show 
 - align overlapping biomarkers with an external dataset
 - test whether the learned signal transfers to real samples the model has never seen
 
-In this repo, the digital twin idea means that each synthetic row represents a plausible virtual patient built by scaled AI according to multiple domain-informed metabolomic patterns rather than arbitrary random data.
+In this repo, the digital twin idea means that each synthetic row represents a plausible virtual patient built by scaled AI according to multiple domain-informed metabolomic patterns rather than arbitrary random data. The full white paper: [https://simulatexp.health/#whitepaper-t2d-metabolomics](https://simulatexp.health/#whitepaper-t2d-metabolomics) 
 
 ## Project Goal
 
